@@ -1,0 +1,24 @@
+# Зависимости
+node_modules/
+
+# Служебные файлы IDE
+.idea/
+.vscode/
+
+# Логи
+*.log
+npm-debug.log*
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Ключи и секреты — НИКОГДА не коммитить
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+.env.*
+^C
+^C.pub
